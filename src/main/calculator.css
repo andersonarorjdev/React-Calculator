@@ -1,0 +1,33 @@
+.Calculadora{
+   height: 320px;
+   width: 235px;
+   border: 5px solid rgb(63, 97, 69);
+   border-radius: 15px;
+   overflow: hidden;
+   background-color: black;
+
+   display: grid;
+   grid-template-columns: repeat(4, 25%);
+   grid-template-rows: 1fr 48px 48px 48px 48px 48px;
+}
+
+@font-face{
+    font-family:'Roboto Mono';
+    src:url(./../fonts/static/RobotoMono-Thin.ttf);
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    /* background: linear-gradient(to right, rgb(83, 105, 108),rgb(41, 46, 73)) */
+    background-image: url(../images/fundo2.jpg);
+}
+
+.orange{
+    background-color: #fa8231;
+    color: #FFF;
+}

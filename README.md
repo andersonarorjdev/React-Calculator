@@ -1,5 +1,5 @@
 # React-Calculator
-##Calculadora Desenvolvida em React
+# Calculadora Desenvolvida em React
 
 <img src="./src/prints/calculadoraprint.png">
 
